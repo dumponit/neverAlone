@@ -109,6 +109,30 @@ function camera:worldCoords(x,y)
 	return x+self.x, y+self.y
 end
 
+
+
+---Customized function for neverAlone
+
+
+function camera:smashMode(object1, object2)
+	---Between two bodies measure distance between them to decide if the camera's scale needs to be increased or decreased
+
+
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 function camera:mousepos()
 	return self:worldCoords(love.mouse.getPosition())
 end
